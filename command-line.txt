@@ -1,0 +1,21 @@
+(run docker desctop)
+# run docker image api 
+docker build -t devopsapi .
+# run docker image MVC
+docker build -t devopsmvc .
+# run docker compose for build sqlserver image and create containers
+docker-compose up 
+docker-compose up -f (if you dont want show logs)
+# delete and stop container 
+docker-compose down
+
+# modif in the app
+dotnet build
+dotnet run
+
+# sqlserver configuration
+server name : localhost,8001
+username:sa
+password:ALAb@1234 
+
+

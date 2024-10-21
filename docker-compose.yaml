@@ -1,0 +1,39 @@
+version: '3.8'
+networks:
+  frontend:
+  backend:
+
+services:
+  sql-server:
+    container_name: sql-server
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=ALAb@1234
+    ports:
+      - "8001:1433"
+    networks:
+      - backend
+  devopsapi:
+    container_name: devopsapi
+    image: devopsapi
+    build: 
+      context: .  
+      dockerfile: DevopsApi/DevopsApi/Dockerfile  
+    ports:
+      - "8000:8080"
+    depends_on:
+      - sql-server
+    networks:
+      - backend
+      - frontend
+  mvcdevops:
+    container_name: mvcdevops
+    image: mvcdevops
+    build: 
+      context: ./MVCdevopsProject/MVCdevopsProject
+      dockerfile: Dockerfile  
+    ports:
+      - "8002:8080"
+    networks:
+      - frontend

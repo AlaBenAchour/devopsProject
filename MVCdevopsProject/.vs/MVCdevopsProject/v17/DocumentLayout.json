@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\devops\\MVCdevopsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|d:\\devops\\mvcdevopsproject\\mvcdevopsproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|solutionrelative:mvcdevopsproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|d:\\devops\\mvcdevopsproject\\mvcdevopsproject\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|solutionrelative:mvcdevopsproject\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|d:\\devops\\mvcdevopsproject\\mvcdevopsproject\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|solutionrelative:mvcdevopsproject\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|d:\\devops\\mvcdevopsproject\\mvcdevopsproject\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|solutionrelative:mvcdevopsproject\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|d:\\devops\\mvcdevopsproject\\mvcdevopsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F505F7-C8C2-4010-8303-98A873568EE0}|MVCdevopsProject\\MVCdevopsProject.csproj|solutionrelative:mvcdevopsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCdevopsProject\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCdevopsProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:10:34.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseDTO.cs",
+              "DocumentMoniker": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\ResponseDTO.cs",
+              "RelativeDocumentMoniker": "MVCdevopsProject\\DTOs\\ResponseDTO.cs",
+              "ToolTip": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\ResponseDTO.cs",
+              "RelativeToolTip": "MVCdevopsProject\\DTOs\\ResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:10:16.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestDTO.cs",
+              "DocumentMoniker": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\RequestDTO.cs",
+              "RelativeDocumentMoniker": "MVCdevopsProject\\DTOs\\RequestDTO.cs",
+              "ToolTip": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\RequestDTO.cs",
+              "RelativeToolTip": "MVCdevopsProject\\DTOs\\RequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:10:10.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "MVCdevopsProject\\DTOs\\BookDTO.cs",
+              "ToolTip": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "MVCdevopsProject\\DTOs\\BookDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:10:09.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\Program.cs",
+              "RelativeDocumentMoniker": "MVCdevopsProject\\Program.cs",
+              "ToolTip": "D:\\devops\\MVCdevopsProject\\MVCdevopsProject\\Program.cs",
+              "RelativeToolTip": "MVCdevopsProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:38:51.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MVCdevopsProject.DTOs.BookDTO>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @foreach(var item in Model)
+    {
+        <h1>@item.Name</h1>
+    }
+</div>

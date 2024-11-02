@@ -3,7 +3,7 @@ using MVCdevopsProject.DTOs;
 using MVCdevopsProject.Enums;
 using System.Text.Json;
 using System.Text;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MVCdevopsProject.Services.GeneralServices {
 
@@ -20,8 +20,8 @@ namespace MVCdevopsProject.Services.GeneralServices {
             message.Headers.Add("Accept", "application/json");
             message.RequestUri=new Uri(request.URL);
             if(request.Data!=null){
-                var jsonData = JsonSerializer.Serialize(request.Data);
-                message.Content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                //var jsonData = JsonConvert.SerializeObject(request.Data);
+                message.Content = new StringContent(JsonConvert.SerializeObject(request.Data), Encoding.UTF8, "application/json");
 
             }
             switch(request.apiMethods){
@@ -39,7 +39,7 @@ namespace MVCdevopsProject.Services.GeneralServices {
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
-                    var result = JsonSerializer.Deserialize<object>(content);
+                    var result = JsonConvert.DeserializeObject<object>(content);
                     endResult.IsSuccess=true;
                     endResult.Message = "ok";
                     endResult.Result = result;

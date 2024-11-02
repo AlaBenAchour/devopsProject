@@ -3168,19 +3168,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marwen BOUFARES\\.nuget\\packages\\": {}
+    "C:\\Users\\alabe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\devops\\DevopsApi\\DevopsApi\\DevopsApi.csproj",
+      "projectUniqueName": "C:\\ISI\\semestre 3\\devops\\doker-dotnet\\DevopsApi\\DevopsApi\\DevopsApi.csproj",
       "projectName": "DevopsApi",
-      "projectPath": "D:\\devops\\DevopsApi\\DevopsApi\\DevopsApi.csproj",
-      "packagesPath": "C:\\Users\\Marwen BOUFARES\\.nuget\\packages\\",
-      "outputPath": "D:\\devops\\DevopsApi\\DevopsApi\\obj\\",
+      "projectPath": "C:\\ISI\\semestre 3\\devops\\doker-dotnet\\DevopsApi\\DevopsApi\\DevopsApi.csproj",
+      "packagesPath": "C:\\Users\\alabe\\.nuget\\packages\\",
+      "outputPath": "C:\\ISI\\semestre 3\\devops\\doker-dotnet\\DevopsApi\\DevopsApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Marwen BOUFARES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3188,6 +3193,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

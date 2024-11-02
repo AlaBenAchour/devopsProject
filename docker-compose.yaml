@@ -18,8 +18,8 @@ services:
     container_name: devopsapi
     image: devopsapi
     build: 
-      context: .  
-      dockerfile: DevopsApi/DevopsApi/Dockerfile  
+      context: ./DevopsApi/DevopsApi  # Chemin vers le répertoire contenant le Dockerfile
+      dockerfile: Dockerfile  # Assurez-vous que c'est juste le nom du Dockerfile
     ports:
       - "8000:8080"
     depends_on:

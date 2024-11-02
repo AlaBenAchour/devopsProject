@@ -2,7 +2,7 @@
 # run docker image api 
 docker build -t devopsapi .
 # run docker image MVC
-docker build -t devopsmvc .
+docker build -t mvcdevops .
 # run docker compose for build sqlserver image and create containers
 docker-compose up 
 docker-compose up -f (if you dont want show logs)

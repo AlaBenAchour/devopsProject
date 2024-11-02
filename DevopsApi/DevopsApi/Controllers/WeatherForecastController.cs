@@ -25,11 +25,11 @@ namespace DevopsApi.Controllers
 
         [HttpGet(Name = "GetData")]
         public async Task<IEnumerable<Book>> Get(){
-            return await _appDbContext.books.ToListAsync();
-            //var books = new List<Book>(){
-            //    new Book(){Id=1, Name="SE", Price=240}
-            //};
-            //return books;
+            //return await _appDbContext.books.ToListAsync();
+            var books = new List<Book>(){
+                new Book(){Id=1, Name="SE", mail="alaben@"}
+            };
+            return books;
         }
         // public IEnumerable<WeatherForecast> Get()
         // {

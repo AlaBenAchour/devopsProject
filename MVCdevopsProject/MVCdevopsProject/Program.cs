@@ -32,6 +32,15 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Account}/{action=Login}/{id?}"); // Sets default to Account/Login
+
+app.MapControllerRoute(
+    name: "register",
+    pattern: "Account/Register",
+    defaults: new { controller = "Account", action = "Register" });
+app.MapControllerRoute(
+    name: "dashbord",
+    pattern: "/dashbord",
+    defaults: new { controller = "Dashbord", action = "Dashbord" });
 
 app.Run();

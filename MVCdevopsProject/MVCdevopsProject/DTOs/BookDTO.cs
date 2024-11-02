@@ -5,7 +5,7 @@ namespace MVCdevopsProject.DTOs{
     
         public string Name { get; set; }
 
-      
-        public decimal Price { get; set; }
+
+        public string mail { get; set; }
     }
 }

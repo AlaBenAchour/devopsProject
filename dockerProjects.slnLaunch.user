@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nouveau profil",
+    "Projects": [
+      {
+        "Name": "DevopsApi\\DevopsApi\\DevopsApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "MVCdevopsProject\\MVCdevopsProject\\MVCdevopsProject.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

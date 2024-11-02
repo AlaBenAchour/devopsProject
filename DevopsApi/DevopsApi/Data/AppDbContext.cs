@@ -31,5 +31,6 @@ namespace DevopsApi.Data  // Assurez-vous que le namespace correspond à celui d
 
         // DbSet pour vos modèles, par exemple :
         public DbSet<Book> books { get; set; }
+       
     }
 }

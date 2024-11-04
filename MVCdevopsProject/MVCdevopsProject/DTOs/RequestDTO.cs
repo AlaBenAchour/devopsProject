@@ -6,4 +6,5 @@ namespace MVCdevopsProject.DTOs {
         public object Data{ get; set; }
         public ApiMethods apiMethods { get; set; }=ApiMethods.get;
     }
+
 }

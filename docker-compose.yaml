@@ -1,3 +1,42 @@
+# version: '3.8'
+# networks:
+#   frontend:
+#   backend:
+
+# services:
+#   sql-server:
+#     container_name: sql-server
+#     image: mcr.microsoft.com/mssql/server:2019-latest
+#     environment:
+#       - ACCEPT_EULA=Y
+#       - MSSQL_SA_PASSWORD=ALAb@1234
+#     ports:
+#       - "8001:1433"
+#     networks:
+#       - backend
+#   devopsapi:
+#     container_name: devopsapi
+#     image: devopsapi
+#     build: 
+#       context: ./DevopsApi/DevopsApi  # Chemin vers le répertoire contenant le Dockerfile
+#       dockerfile: Dockerfile  # Assurez-vous que c'est juste le nom du Dockerfile
+#     ports:
+#       - "8000:8080"
+#     depends_on:
+#       - sql-server
+#     networks:
+#       - backend
+#       - frontend
+#   mvcdevops:
+#     container_name: mvcdevops
+#     image: mvcdevops
+#     build: 
+#       context: ./MVCdevopsProject/MVCdevopsProject
+#       dockerfile: Dockerfile  
+#     ports:
+#       - "8002:8080"
+#     networks:
+#       - frontend
 version: '3.8'
 networks:
   frontend:
@@ -14,12 +53,15 @@ services:
       - "8001:1433"
     networks:
       - backend
+
   devopsapi:
     container_name: devopsapi
     image: devopsapi
     build: 
-      context: ./DevopsApi/DevopsApi  # Chemin vers le répertoire contenant le Dockerfile
-      dockerfile: Dockerfile  # Assurez-vous que c'est juste le nom du Dockerfile
+      context: ./DevopsApi/DevopsApi  # Path to the directory containing the Dockerfile
+      dockerfile: Dockerfile  # Make sure this is the actual Dockerfile name
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sql-server,1433;Database=devopsdb;User Id=sa;Password=ALAb@1234;
     ports:
       - "8000:8080"
     depends_on:
@@ -27,6 +69,7 @@ services:
     networks:
       - backend
       - frontend
+
   mvcdevops:
     container_name: mvcdevops
     image: mvcdevops
